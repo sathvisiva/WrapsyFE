@@ -3,6 +3,8 @@ import { Routes,RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ProductsComponent } from './products/products.component';
+import { RegisterComponent } from './register/register.component';
+import { CreateComponent } from './create/create.component';
 
 
 
@@ -11,7 +13,9 @@ const appRoutes: Routes = [
 	{ path: '', component: HomeComponent },
 	{ path: 'home', component: HomeComponent },
 	{ path: 'login', component: LoginComponent },
-	{ path: 'products', component : ProductsComponent}
+	{ path: 'products', component : ProductsComponent},
+	{ path: 'register', component : RegisterComponent},
+	{ path : 'create', component: CreateComponent}
 	
 
 	

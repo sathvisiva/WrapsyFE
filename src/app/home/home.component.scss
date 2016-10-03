@@ -13,6 +13,12 @@
 
 .events{
   padding :25px;
+
+}
+
+.registry-cta-section {
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .logo {
@@ -25,6 +31,7 @@
   width: 100%;
   display: block;
   background-color: #00BCD4; 
+  margin-bottom : 20px;
 
 }
 
@@ -56,11 +63,19 @@
 
 
 .eventButton{
-width: 225px;
-    margin: 0 5px 10px;
+  width: 225px;
+  margin: 0 5px 10px;
   color :#ff4081;
+  font-weight: bold;
   
 
+}
+
+.topic{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    padding-top: 40px;
+    margin-bottom: 20px;
 }
 
 .eventicon {
