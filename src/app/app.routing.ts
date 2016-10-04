@@ -5,6 +5,7 @@ import { LoginComponent } from './login/login.component';
 import { ProductsComponent } from './products/products.component';
 import { RegisterComponent } from './register/register.component';
 import { CreateComponent } from './create/create.component';
+import { RegistryComponent } from './registry/registry.component';
 
 
 
@@ -15,7 +16,8 @@ const appRoutes: Routes = [
 	{ path: 'login', component: LoginComponent },
 	{ path: 'products', component : ProductsComponent},
 	{ path: 'register', component : RegisterComponent},
-	{ path : 'create', component: CreateComponent}
+	{ path : 'create', component: CreateComponent},
+	{ path : 'registry', component: RegistryComponent}
 	
 
 	

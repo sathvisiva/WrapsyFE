@@ -1,22 +1,54 @@
-nav.navbar-webmaster { background: #1b242c; margin-bottom: 0px; border:0px}
-nav.navbar-webmaster a { color: #fff; }
-nav.navbar-webmaster ul.navbar-nav a { color: #fff; border-style: solid; border-width: 2px 0 0 0; border-color:#1b242c; }
-nav.navbar-webmaster ul.navbar-nav a:hover,
-nav.navbar-webmaster ul.navbar-nav a:visited,
-nav.navbar-webmaster ul.navbar-nav a:focus,
-nav.navbar-webmaster ul.navbar-nav a:active { background:#3b4045; }
-nav.navbar-webmaster ul.navbar-nav a:hover {border-color: #ff4081; color : #ff4081 }
-nav.navbar-webmaster li.divider { background: #ccc; }
-nav.navbar-webmaster button.navbar-toggle { background:  #1b242c; border-radius: 2px; }
-nav.navbar-webmaster button.navbar-toggle:hover { background: #999; }
-nav.navbar-webmaster button.navbar-toggle > span.icon-bar { background: #fff; }
-nav.navbar-webmaster ul.dropdown-menu { border: 0; background: #fff; border-radius: 4px; margin: 4px 0; box-shadow: 0 0 4px 0 #ccc; }
-nav.navbar-webmaster ul.dropdown-menu > li > a { color: #444; }
-nav.navbar-webmaster ul.dropdown-menu > li > a:hover { background: #f14444; color: #fff; }
-nav.navbar-webmaster span.badge { background: #f14444; font-weight: normal; font-size: 11px; margin: 0 4px; }
-nav.navbar-webmaster span.badge.new { background: rgba(255, 0, 0, 0.8); color: #fff; }
+.nav{
+margin-bottom:0px;	
+}
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
 
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
 
-
-
-
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
